@@ -147,10 +147,10 @@
     </div>
     <!--/////////////////////////////////////////////////////////////////////////-->
     <!--///////////////////////////////Liste resultat////////////////////////////-->
-
+    <br>
     <ul class="list">
           <li><i class="fas fa-search"></i> Liste des résultats</li>
-              <br>
+              
 
               <?php
             if (isset($_POST["dep"]) || isset($_POST["form"] )|| isset($_POST["dis"] ) ){
@@ -197,7 +197,7 @@
             $arrayCoor = array();
             $arrayUniv = array();
             $arrayUrl = array();
-            echo "<p>".count($parsed_json["records"]). " resultat(s) </p>";
+            echo "<li>".count($parsed_json["records"]). " resultat(s) </li>";
               foreach ($parsed_json["records"] as $resul) {
                 foreach ($parsed_json2["records"] as $resul2) {
                   if($resul2["fields"]["uo_lib"] ==$resul['fields'][ 'etablissement_lib' ] ){
