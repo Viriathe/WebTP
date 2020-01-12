@@ -1,0 +1,121 @@
+/*////////////////////////////////////////////////////////////////////////////*/
+*{
+   margin:0;
+   padding:0;
+
+   font-family: 'DM Serif Text', serif;
+   box-sizing: border-box;
+}
+body{
+  height:100%;
+  color: #005f61;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////// NAVBAR /////////////////////////////////////*/
+
+nav{
+  background-color: #005f61;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+.brand{
+  color: #ffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a{
+  text-decoration: none;
+  color: #ffff;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.nav-links a:hover{
+  color: #005f61;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+.title{
+  padding: 5px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+
+/*////////////////////////////// FORM ////////////////////////////////////////*/
+
+hr{
+  color: grey;
+}
+
+input{
+  color : #005f61;
+  margin: 10px;
+
+}
+.field {
+  display: flex;
+
+
+}
+.form h5{
+  color: #005f61;
+}
+.select{
+  margin : 10px;
+  color: #005f61;
+}
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////// MAP ///////////////////////////////////////*/
+
+#mapid {
+  height: 550px;
+  margin: 20px;
+  padding: 5px;
+  width: 50%;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////// LISTE ////////////////////////////////////*/
+
+.result{
+  display: flex;
+}
+
+.list{
+  list-style: none;
+  margin : 10px;
+}
+.list h3{
+  margin: 5px;
+  margin-left: 20px;
+}
+/*///////////////////////////////// FOOTER ///////////////////////////////////*/
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #005f61;
+  padding: 15px;
+  text-align: center;
+}
+footer p {
+  color: #ffff;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
