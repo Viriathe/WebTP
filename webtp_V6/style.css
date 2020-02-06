@@ -1,0 +1,138 @@
+/*////////////////////////////////////////////////////////////////////////////*/
+*{
+   margin:0;
+   padding:0;
+
+   font-family: 'DM Serif Text', serif;
+   box-sizing: border-box;
+}
+body{
+  height:100%;
+  color: #005f61;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////// NAVBAR /////////////////////////////////////*/
+
+nav{
+  background: linear-gradient(#005f61,#649293);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+}
+nav i {
+  font-size: 20px;
+}
+.brand{
+  color: #ffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a{
+  text-decoration: none;
+  color: #ffff;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 12px;
+}
+.nav-links a:hover{
+  color: #005f61;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+.title{
+  padding: 5px;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+
+/*////////////////////////////// FORM ////////////////////////////////////////*/
+
+hr{
+  color: grey;
+}
+
+input{
+  background : linear-gradient(#649293,#005f61);
+  color : #ffff;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 7px;
+  border : none;
+  cursor: pointer;
+
+}
+.field {
+  display: flex;
+
+
+}
+.form h5{
+  color: #005f61;
+}
+.form h4{
+  margin-left: 10px;
+}
+.select{
+  margin : 10px;
+  color: #005f61;
+}
+/*////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////// MAP ///////////////////////////////////////*/
+
+#mapid {
+  height: 550px;
+  margin: 20px;
+  padding: 5px;
+
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////// LISTE ////////////////////////////////////*/
+
+.list{
+  list-style: none;
+  margin : 10px;
+
+}
+.list li{
+  margin: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+/*///////////////////////////////// FOOTER ///////////////////////////////////*/
+
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background : linear-gradient(#649293,#005f61);
+  padding: 5px;
+  text-align: center;
+}
+footer p {
+  color: #ffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+footer a {
+  color: #ffff;
+  font-size: 30px;
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
